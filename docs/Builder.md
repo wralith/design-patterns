@@ -11,6 +11,20 @@ object with setters, object is in unstable state while setters getting called se
 The Builder pattern promotes a fluent interface or method chaining, where each method in the builder returns the builder
 itself, allows more expressive and intuitive construction process most of the time.
 
+## Example Class
+
+```mermaid
+classDiagram
+    class SQLBuilder {
+        String statement
+        dialect(sqlDialect) SQLBuilder
+        select(fields) SQLBuilder
+        from(table) SQLBuilder
+        where(condition) SQLBuilder
+        build() String
+    }
+```
+
 ## Where to use Builder Pattern
 
 ### Complex Object Construction
