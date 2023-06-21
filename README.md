@@ -1,6 +1,6 @@
 # Design Patterns
 
-Design Patterns with reasonable code examples
+Design Patterns with reasonable code examples.
 
 ## Creational Patterns
 
@@ -12,7 +12,19 @@ Design Patterns with reasonable code examples
 
 #### Code Example
 
-|  Language  |                 Source Code                  |
-|:----------:|:--------------------------------------------:|
-|     Go     |       [SQLBuilder Example](go/builder)       |
-| TypeScript | [SQLBuilder Example](typescript/src/builder) |
+|  Language  |              Source Code               |
+|:----------:|:--------------------------------------:|
+|     Go     |       [Example Code](go/builder)       |
+| TypeScript | [Example Code](typescript/src/builder) |
+
+### Prototype
+
+**TLDR**: The Prototype design pattern is a creational design pattern that is used to create objects by cloning or copying
+existing objects.
+
+[**In Depth Explanation**](docs/Prototype.md)
+
+|  Language  |               Source Code                |
+|:----------:|:----------------------------------------:|
+|     Go     |       [Example Code](go/prototype)       |
+| TypeScript | [Example Code](typescript/src/prototype) |

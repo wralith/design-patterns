@@ -3,7 +3,7 @@
 **TLDR**: Builder pattern provides a flexible and organized approach to constructing complex objects. It promotes a
 clear separation between the construction logic and the object itself.
 
-The Builder design pattern os a creational design pattern that can be used to construct complex objects step by step. It
+The Builder design pattern is a creational design pattern that can be used to construct complex objects step by step. It
 basically way to separate construction process from its representation. **Builder** allows you to construct different
 variations of an object using the same construction code and prevent an unstable product to leak! *-If we create an
 object with setters, object is in unstable state while setters getting called sequentially-*
