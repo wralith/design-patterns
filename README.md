@@ -1,6 +1,6 @@
 # Design Patterns
 
-Design Patterns with reasonable code examples 
+Design Patterns with reasonable code examples
 
 ## Creational Patterns
 
@@ -12,6 +12,7 @@ Design Patterns with reasonable code examples
 
 #### Code Example
 
-| Language |       Source Code        |
-|:--------:|:------------------------:|
-|    Go    | [go/builder](go/builder) |
+|  Language  |                 Source Code                  |
+|:----------:|:--------------------------------------------:|
+|     Go     |       [SQLBuilder Example](go/builder)       |
+| TypeScript | [SQLBuilder Example](typescript/src/builder) |

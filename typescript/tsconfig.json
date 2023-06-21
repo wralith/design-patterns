@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "types": ["node", "jest"],
+    "module": "CommonJS", // Consider ESM maybe
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "rootDir": "src",
+    "typeRoots": ["node_modules/@types"],
+    "baseUrl": "."
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"]
+}
