@@ -29,7 +29,7 @@ complex objects.
 #### Code Example
 
 |  Language  |                Implementation Code                |                      Test Code                      |
-| :--------: | :-----------------------------------------------: | :-------------------------------------------------: |
+|:----------:|:-------------------------------------------------:|:---------------------------------------------------:|
 |     Go     |       [Example Code](go/builder/builder.go)       |       [Test Code](go/builder/builder_test.go)       |
 | TypeScript | [Example Code](typescript/src/builder/builder.ts) | [Test Code](typescript/src/builder/builder.test.ts) |
 
@@ -42,7 +42,7 @@ The Prototype is used to create objects by cloning or copying existing objects.
 [**In Depth Explanation 👈**](docs/Prototype.md)
 
 |  Language  |                  Implementation Code                  |                        Test Code                        |
-| :--------: | :---------------------------------------------------: | :-----------------------------------------------------: |
+|:----------:|:-----------------------------------------------------:|:-------------------------------------------------------:|
 |     Go     |       [Example Code](go/prototype/prototype.go)       |       [Test Code](go/prototype/prototype_test.go)       |
 | TypeScript | [Example Code](typescript/src/prototype/prototype.ts) | [Test Code](typescript/src/prototype/prototype.test.ts) |
 
@@ -56,6 +56,21 @@ whole application.
 [**In Depth Explanation 👈**](docs/Singleton.md)
 
 |  Language  |                  Implementation Code                  |                        Test Code                        |
-| :--------: | :---------------------------------------------------: | :-----------------------------------------------------: |
+|:----------:|:-----------------------------------------------------:|:-------------------------------------------------------:|
 |     Go     |       [Example Code](go/singleton/singleton.go)       |       [Test Code](go/singleton/singleton_test.go)       |
 | TypeScript | [Example Code](typescript/src/singleton/singleton.ts) | [Test Code](typescript/src/singleton/singleton.test.ts) |
+
+---
+
+## Structural Patterns
+
+### Adapter
+
+The Adapter design pattern allows objects with incompatible interfaces to work together.
+
+[**In Depth Explanation 👈**](docs/Adapter.md)
+
+|  Language  |                Implementation Code                |                      Test Code                      |
+|:----------:|:-------------------------------------------------:|:---------------------------------------------------:|
+|     Go     |       [Example Code](go/adapter/adapter.go)       |       [Test Code](go/adapter/adapter_test.go)       |
+| TypeScript | [Example Code](typescript/src/adapter/adapter.ts) | [Test Code](typescript/src/adapter/adapter.test.ts) |
