@@ -74,3 +74,18 @@ The Adapter design pattern allows objects with incompatible interfaces to work t
 |:----------:|:-------------------------------------------------:|:---------------------------------------------------:|
 |     Go     |       [Example Code](go/adapter/adapter.go)       |       [Test Code](go/adapter/adapter_test.go)       |
 | TypeScript | [Example Code](typescript/src/adapter/adapter.ts) | [Test Code](typescript/src/adapter/adapter.test.ts) |
+
+---
+
+## Behavioral Patterns
+
+### Observer
+
+The Observer pattern allows notifying multiple objects about an event that happened on the object they're observing.
+
+[**In Depth Explanation 👈**](docs/Observer.md)
+
+|  Language  |                 Implementation Code                 |                       Test Code                       |
+|:----------:|:---------------------------------------------------:|:-----------------------------------------------------:|
+|     Go     |       [Example Code](go/observer/observer.go)       |       [Test Code](go/observer/observer_test.go)       |
+| TypeScript | [Example Code](typescript/src/observer/observer.ts) | [Test Code](typescript/src/observer/observer.test.ts) |
