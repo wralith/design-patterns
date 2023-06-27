@@ -59,6 +59,7 @@ whole application.
 |:----------:|:-----------------------------------------------------:|:-------------------------------------------------------:|
 |     Go     |       [Example Code](go/singleton/singleton.go)       |       [Test Code](go/singleton/singleton_test.go)       |
 | TypeScript | [Example Code](typescript/src/singleton/singleton.ts) | [Test Code](typescript/src/singleton/singleton.test.ts) |
+| C#         | [Example Code](csharp/Singleton/Logger/ConsoleLogger.cs) | [Test Code](csharp/Singleton/Logger.UnitTest/LoggerTest.cs) |
 
 ---
 
